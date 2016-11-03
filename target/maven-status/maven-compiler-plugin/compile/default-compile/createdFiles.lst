@@ -1,0 +1,10 @@
+com/newrelic/cf/metrics/opsmetrics/OpsMetrics.class
+com/newrelic/cf/metrics/Application.class
+com/newrelic/cf/metrics/opsmetrics/JmxMetric.class
+com/newrelic/cf/metrics/newrelic/VSphereMetricsForwarder.class
+com/newrelic/cf/metrics/opsmetrics/JmxTemplate.class
+com/newrelic/cf/metrics/opsmetrics/OpsMetricsException.class
+com/newrelic/cf/metrics/newrelic/MonitoringConfiguration.class
+com/newrelic/cf/metrics/newrelic/OpsMetricsForwarder.class
+com/newrelic/cf/metrics/opsmetrics/OpsMetrics$1.class
+com/newrelic/cf/metrics/opsmetrics/OpsMetricsMetric.class
