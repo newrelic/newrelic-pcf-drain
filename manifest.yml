@@ -1,0 +1,22 @@
+---
+applications:
+- name: pcf-nr-drain
+  path: target/cf-newrelic-drain-1.0.0-SNAPSHOT.jar
+  env:
+    JAVA_OPTS: '-javaagent:/app/lib/newrelic-agent-3.31.1.jar -verbose -Dnewrelic.config.file=/app/newrelic/newrelic.yml -Dnewrelic.config.log_file_name=STDOUT'
+    NEW_RELIC_APP_NAME: 'pcf metric collector 2'
+    NEW_RELIC_LICENSE_KEY: 6c84b8a94a7f667a3a92c802b6e81ceda1537cd5
+    OPSMETRICS_HOST: 10.65.180.105
+    # OPSMETRICS_HOST: 10.65.180.111
+    # OPSMETRICS_HOST: 'opsmgr-03.haas-26.pez.pivotal.io'
+    # OPSMETRICS_PORT: 5555
+    OPSMETRICS_USERNAME: admin
+    OPSMETRICS_PASSWORD: password
+    # VSPHERE_HOST: 10.65.178.11
+    # VSPHERE_HOST: opsmgr-03.haas-26.pez.pivotal.io
+    # VSPHERE_USERNAME: <vsphere username>
+    # VSPHERE_PASSWORD: <vsphere passwordi>
+    VSPHERE_HOST: 10.65.178.11
+    VSPHERE_PASSWORD: 5eXlQJlXTwEY!
+    VSPHERE_USERNAME: administrator@vsphere.local
+    DATASTORES: LUN03
