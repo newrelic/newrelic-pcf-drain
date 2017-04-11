@@ -26,8 +26,11 @@ public class OpsMetricsMetric {
 
     private static final Logger LOG = LoggerFactory.getLogger(OpsMetricsMetric.class);
 
+//    private static final Pattern METRIC_NAME_PATTERN = Pattern
+//            .compile("^org.cloudfoundry/deployment=(.*)/job=(.*)/index=(\\d+)/ip=(.*)$");
+
     private static final Pattern METRIC_NAME_PATTERN = Pattern
-            .compile("^org.cloudfoundry/deployment=(.*)/job=(.*)/index=(\\d+)/ip=(.*)$");
+            .compile("^org.cloudfoundry/deployment=(.*)/job=(.*)/index=([-\\p{XDigit}]*)/ip=(.*)$");
 
     private String deployment;
     private String job;

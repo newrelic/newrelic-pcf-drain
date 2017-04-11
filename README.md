@@ -117,7 +117,7 @@ This project has been tested against PCF 1.4, 1.5, 1.7, and 1.8.
 
 ## Deployment
 
-In order to automate the deployment process as much as possible, the project contains a Cloud Foundry [manifest][b]. Update the manifest as required for your environment.  To deploy run the following commands:
+In order to automate the deployment process as much as possible, the project contains a Cloud Foundry [manifest][b] file. Update the manifest as required for your environment. Make sure to assign proper values to all required environment variables, and also change <AGENT_VERSION> of New Relic agent jar file to the correct version of New Relic agent as specified in **pom.xml**. To deploy run the following commands:
 
 ```bash
 mvn clean package
