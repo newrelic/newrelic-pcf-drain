@@ -15,7 +15,7 @@ This project forwards metrics from the [Ops Metrics][e] component in [Pivotal Cl
 
 ### Optional
 
-| Key | Description
+| Key | Description 
 | --- | -----------
 | `CF_INSTANCE_NAME` | An identifier to distinguish between multiple CF environment reporting metrics to the same New Relic account. Reported with all events as `platform_instance`. Default is `default`
 | `COLLECTION_INTERVAL` | The frequency in milliseconds in which metrics are reported. Default is `30000`.
