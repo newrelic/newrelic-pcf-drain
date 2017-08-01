@@ -113,7 +113,7 @@ If you have multiple CF environments denoted by `CF_INSTANCE_NAME`, you can targ
 
 ## Compatibility
 
-This project has been tested against PCF 1.4, 1.5, 1.7, and 1.8.
+This project has been tested against PCF 1.4, 1.5, 1.7, 1.8, 1.10, and 1.11.
 
 ## Deployment
 
