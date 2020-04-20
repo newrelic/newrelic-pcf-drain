@@ -1,3 +1,5 @@
+[![Archived header](https://github.com/newrelic/open-source-office/raw/master/examples/categories/images/Archived.png)](https://github.com/newrelic/open-source-office/blob/master/examples/categories/index.md#archived)
+
 # Cloud Foundry New Relic Insights Metric Drain
 
 This project forwards metrics from the [Ops Metrics][e] component in [Pivotal Cloud Foundry][d] into [New Relic Insights][c].
